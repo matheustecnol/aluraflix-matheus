@@ -1,0 +1,8 @@
+.allx {
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:center;
+    width: 99%;  
+    height: 1625px;       
+}

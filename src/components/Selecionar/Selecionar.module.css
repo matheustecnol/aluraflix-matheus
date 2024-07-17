@@ -1,0 +1,22 @@
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 65%;
+    height: 90px;
+}
+
+.info label{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.info select{
+    width: 99%;
+    height: 55%;
+    border: 1px solid #7a7373;
+    background-color: var(--preto);
+    border-radius: 10px;
+    color: white;
+
+}

@@ -1,0 +1,21 @@
+.capa {
+    width: 98%;
+    height: 630px;    
+    background-color: var(--preto);   
+    padding: 2rem;    
+}
+
+.capaCont {
+    width: 99%;
+    height: 99%;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment:local;
+    background-position: center;
+    background-color: var(--preto);
+    border: 3px solid var(--azul-escuro);
+    box-shadow: 0px 1px 20px 2px var(--azul-escuro);
+    
+    
+    
+}

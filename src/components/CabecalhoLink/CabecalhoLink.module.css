@@ -1,0 +1,21 @@
+.link {
+    color: var(--cinza-txt);
+    font-size: 18px;
+    font-weight: 400;
+    padding: 1em;
+    text-decoration: none;
+}
+
+.link button {
+    width: 12.5em;
+    height: 3.4em;
+    border-radius: 12px;
+    border: solid 2px var(--azul-escuro);
+    background-color: var(--preto);
+    color: var(--azul-escuro);
+    font-family: var(--fonte);
+    font-weight: 500;
+    font-size: 18px;
+    
+    box-shadow: 0px 4px 15px 0px var(--azul-escuro);
+}

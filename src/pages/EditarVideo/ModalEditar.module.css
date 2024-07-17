@@ -1,0 +1,75 @@
+.btnFecharModal{
+    font-size: 25px;
+    font-weight: 700;
+    color: var(--verde);
+    background-color: black;
+    width: 50px;
+    height: 47px;
+    border: 2px solid #00C86F;
+    border-radius: 50px;
+    box-shadow: 2px 3px 10px 0px #00C86F;
+    
+
+}
+
+.btnFecharModalCont{  
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    background-color: black;
+    width: 99%;
+    height: 47px;
+   
+    
+
+}
+
+.modal{
+    position: absolute;
+    top: 1%;
+    left: 20%;
+    right: 20%;
+    bottom: 1%;
+    border: 1px solid green;
+    background-color: var(--preto);
+    border-radius: 20px;
+    padding: 20px;
+
+}
+
+.btn{
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--verde);
+    background-color: black;
+    width: 145px;
+    height: 47px;
+    border: 1px solid #00C86F;
+    border-radius: 10px;
+    box-shadow: 2px 3px 10px 0px #00C86F;
+
+}
+
+.formularioCont{
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:center;
+    width: 99%;  
+    height: 95%;    
+}
+
+.formulario{
+    width: 90%;
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;   
+}
+
+.btnCont{
+    display: flex;
+    flex-direction: row;    
+}
+

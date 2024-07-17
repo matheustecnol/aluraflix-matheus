@@ -1,0 +1,112 @@
+.container {   
+    padding: 0 0 1em 0;
+    margin-top: .5em;
+    width: 355px; 
+    height: 91%;      
+    background-color: var(--preto);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 2px ;    
+    border-radius: 15px;
+    border: solid 2px var(--verde);
+    box-shadow: 0px 4px 15px 0px #00C86F;  
+}
+
+.link{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+    align-items: center;
+    width: 100%; 
+    height: 80%; 
+   
+
+}
+
+.container img {
+    width: 95%; 
+    height: 93%;    
+    border-radius: 15px;    
+      
+}
+
+.btnCont {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 15%;
+    background-color: black;
+   
+
+}
+
+.btn{
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--verde);
+    background-color: black;
+    width: 40%;
+    height: 80%;
+    border: 1px solid #00C86F;
+    border-radius: 10px;
+    box-shadow: 2px 3px 10px 0px #00C86F;
+
+}
+
+.btnFecharModal{
+    font-size: 25px;
+    font-weight: 700;
+    color: var(--verde);
+    background-color: black;
+    width: 50px;
+    height: 47px;
+    border: 2px solid #00C86F;
+    border-radius: 50px;
+    box-shadow: 2px 3px 10px 0px #00C86F;   
+
+}
+
+.btnFecharModalCont{  
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    background-color: black;
+    width: 99%;
+    height: 47px;     
+
+}
+
+
+.modal{
+    position: absolute;
+    top: 1%;
+    left: 20%;
+    right: 20%;
+    bottom: 1%;
+    border: 1px solid green;
+    background-color: var(--preto);
+    border-radius: 20px;
+    padding: 20px;
+
+}
+
+.formularioCont{
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:center;
+    width: 99%;  
+    height: 95%;    
+}
+
+.formulario{
+    width: 90%;
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;   
+}

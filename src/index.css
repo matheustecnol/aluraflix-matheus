@@ -1,0 +1,29 @@
+:root { 
+  --fonte: "Roboto", sans-serif;
+  --preto: #000000;
+  --azul-escuro: #2271D1;
+  --azul-claro: #6BD1FF;
+  --cinza-txt: #F5F5F5;
+  --verde: #00C86F;
+  --laranja: #FFBA05;
+
+
+}
+
+body {
+  margin: 0;
+  font-family: var(--fonte);
+  background-color: var(--preto);
+  color: var(--cinza-txt);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ 
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+
